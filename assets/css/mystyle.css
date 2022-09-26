@@ -1,0 +1,185 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container-nav{
+    width: 100%;
+    margin: 0%;
+     display: flex;  
+    flex-direction: flex;
+    height: 80px;
+    background-color: #353A40;
+}
+.container-nav img{
+    height: 80px;
+    justify-content:left
+}
+.container-nav .nav input{
+    border-radius: 5px;
+    background-color: aquamarine;
+}
+.container-nav .nav button{
+    border-radius: 2px;
+    padding: 4px;
+    background-color: aquamarine;
+}
+header{
+    position:relative;
+    padding-top: 18rem;
+    padding-bottom: 18rem;
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/img/ba1.jpg) center no-repeat;
+    
+   
+}
+.info-header{
+    text-align: right;
+    margin: 0% 10% 15% 55%;
+     color:white;
+}
+.info-parrafo{
+    text-align: left;
+    margin: 0% 10% 15% 55%;
+     color:white;
+}
+ .navbar-toggler{
+    padding: 0,25rem  0,75rem;
+    font-size: 1,25rem;
+    line-height: 1;
+    background-color: rgb(224, 141, 64);
+    border: 1px solid transparent;
+    border-radius: 0,25rem;
+    transition: box-shadow 0,15 ease-in-out;
+    }
+.navbar .navbar-nav{
+    text-align: center;
+}
+
+.nav a{
+    color: #80888D
+}
+.boton{
+width: 100%;
+background-color: rgb(120, 200, 120);
+}
+
+.boton-nav{
+    text-decoration: none;
+    padding: 10px;
+    top: auto;
+}
+.showcase{
+    
+    background-image:url(ba2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: var(--bs-gray-200);
+    }
+
+.content{
+    width: 50%;
+    margin-bottom: 20vh;
+    text-align: left;
+
+}
+#formulario{
+    width: 50%;
+    align-items: center;
+    
+    margin: 0% 10% 15% 25%;
+    
+}
+.navbar img{
+    width: 80px;
+    margin-right: 1rem;
+    padding: 1rem 0;
+    }
+.edificio{
+    hyphens: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: var(--bs-gray-200);
+    background-image: linear-gradient(to right ,transparent 50%, #1171d1, #212529 0.5px ),  
+        url(../img/honoloulu.jpg);
+    text-align: right ;    
+    }
+
+
+.footer {
+    background-color: #353A40;
+    
+    position: fixed;
+    bottom: 0;
+    width:100%;
+    height: 100px;
+    
+
+    } 
+ .txtShadow{
+    background-color: rgb(112, 112, 112);
+    text-shadow:transparent;
+    text-align: right;
+    top: 1pt;
+    text-emphasis-color:white;
+    margin: 0% 20% 15% 75%;
+ }   
+ span {
+
+    position: relative;
+    width: 200px;
+    padding-bottom: 10px;
+    
+    }
+    
+ span:after {
+
+    content: 'Developer: ' attr(data-developer);
+    position: absolute;    
+    top: -22px;    
+    left: 10px;    
+    background: black;    
+    color: white;    
+    padding: 2px;    
+    border: 1px solid #eee;    
+    opacity: 0;    
+    transition: 0.5s opacity;    
+    }
+span:hover:after {
+        opacity: 1;
+        
+     }
+    
+     .buttonarea{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+            
+    }
+
+    .btn {
+        padding: 0,5rem 1rem;
+        margin: 0,5rem;
+        border-radius: 5px;
+    }
+    .btn-transparent{
+        border: 1px;
+    }
+    .btn-transparent:hover{
+        background-color: #adb5bd;
+        color:#adbdb3
+      
+    }
+    .btn-solid{
+        background-color: red;
+        border: 1px;
+    }
+    .btn-solid:hover{
+    background-color: #343a40;    
+    border: yellow;
+    color: #dee2e6;
+    transition: 0,5s;
+    }
