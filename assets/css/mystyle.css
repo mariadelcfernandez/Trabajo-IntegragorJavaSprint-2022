@@ -183,3 +183,13 @@ span:hover:after {
     color: #dee2e6;
     transition: 0,5s;
     }
+    @media (min-width: 992px) {
+        .btn-tickets {
+          border: 1px solid transparent;
+          border-radius: .8rem;
+        }
+        .btn-tickets:hover,
+        .navbar-dark .navbar-nav .btn-tickets.active {
+          background: #25a342;
+        }
+      }

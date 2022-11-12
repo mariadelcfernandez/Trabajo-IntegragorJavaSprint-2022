@@ -5,40 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./assets/css/mystyle.css" rel="stylesheet">
-    <title>Trabajo Integrador</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-</head>
+    <title>Trabajo Integrador</title>
+  </head>
 <body>
-      
-        <nav class="navbar navbar-expand-lg navbar-dark">
+  <header> 
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
             <div class="container-nav">
-    
+              <a class="navbar-brand" href="index.html">
               <span> <img src="./assets/img/logo.png"class="logo" alt="Responsive image"></span>          
              <h1 class="navbar-brand-h1 me-auto">Conf Bs As</h1>
-             
+              </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbar-nav">
-                <div class="navbar-nav mx-auto">
-               
-                  <a href="#" class="badge badge-info">La Conferencia</a>
-
-                  <a href="#" class="badge badge-info">Los Oradores</a>
-                  
-                  <a href="#" class="badge badge-info">El lugar y Fecha</a>
-                  
-                  <a href="#" class="badge badge-info">Convertite en un Orador</a>
-                  
-                  <a href="#" class="badge badge-info "style="color: green;">Compra Ticket</a>
-                   
+              <div class="collapse navbar-collapse justify-content-end"  id="navbarSupportedContent">
+                <!--<div class="navbar-nav mx-auto">-->
+                  <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">La Conferencia</a>
+                    </li>
+                  <li class="nav-item">
+                  <a  class="nav-link" href="#oradores">Los Oradores</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="#lugar">El lugar y Fecha</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link" href="#form-orador">Convertite en un Orador</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link btn-tickets" href="tickets.html"style="color: green;">Compra Ticket</a>
+                  </li>
+                  </ul>
                 </div>
               </div>
             </div>
           </nav>
 
     </div>
-<header>
+  </header>
+
+  <main>
+
     <img class="imagen-header">
     <div class="info-header">
     <h2>Conf Bs As</h2>
@@ -47,7 +56,8 @@
      futuro de Internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo
       y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
       <div class="buttonarea"> 
-    <a class="btn btn-outline-transparent active" href="#">Quiero ser orador</a>
+        
+    <a class="btn btn-outline-transparent active" href="#form-orador"></a>">Quiero ser orador</a>
     <a class="btn btn-success btn-solid " href="#">Comprar tickets</a>
     </div>
 </header>
@@ -143,8 +153,8 @@
      </section>
          <br>  
          <br>         
-          
-</body>       
+        </main> 
+      
                   
               <footer class="footer  text-lg-start">
                 <!-- Grid container -->
